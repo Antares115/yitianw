@@ -208,3 +208,14 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.08; l
   .nav__links { gap: 16px; }
   .nav__links a { font-size: 0.72rem; }
 }
+
+/* ---- lifestyle mockup photos ---- */
+.shot { border-radius:16px; overflow:hidden; box-shadow:0 22px 55px rgba(12,27,58,0.18); }
+.shot img { width:100%; height:auto; display:block; }
+.bb.shot { border:none; background:transparent; }
+.hero-shot { max-width:600px; margin:0 auto; }
+
+/* ---- framed/wall photo mockups (already have their own lighting) ---- */
+.photo { border-radius:14px; overflow:hidden; }
+.photo img { width:100%; height:auto; display:block; }
+.merch-wrap { max-width:760px; margin:0 auto; }
